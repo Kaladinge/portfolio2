@@ -1,7 +1,8 @@
 import React from "react";
 import Container from "react-bootstrap/container";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../logo.svg";
+import logo from "../../logo.svg";
+import ProjectCards from "./ProjectCards";
 
 function HomePage() {
   return (
@@ -20,6 +21,7 @@ function HomePage() {
           </Navbar.Brand>
         </Container>
       </Navbar>
+      <ProjectCards />
     </>
   );
 }
