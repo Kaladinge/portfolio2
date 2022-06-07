@@ -1,11 +1,15 @@
 import "./sass/style.scss";
 import HomePage from "./components/home/HomePage";
+import Footer from "./components/home/Footer";
 
 function App() {
   return (
-    <div>
-      <HomePage />
-    </div>
+    <>
+      <div className="wrapper">
+        <HomePage />
+      </div>
+      <Footer />
+    </>
   );
 }
 

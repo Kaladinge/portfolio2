@@ -13,7 +13,7 @@ export default function ProjectCards() {
         {projectData.map((item) => (
           <Col lg={4} key={item.title} className="mb-4">
             <Card
-              className="card w-100 h-100 position-relative overflow-hidden"
+              className="border-0 card w-100 h-100 position-relative overflow-hidden"
               style={{ borderRadius: "10px" }}
             >
               <Card.Img variant="top" src={item.screenshot} />

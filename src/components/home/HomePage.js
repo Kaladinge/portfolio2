@@ -11,8 +11,7 @@ function HomePage() {
         <Container>
           <Navbar.Brand href="#home">
             <h1 className="heading">
-              lars-inge <br />{" "}
-              <span className="heading--portfolio">portfolio</span>
+              lars-inge <span className="heading--portfolio">portfolio</span>
             </h1>
           </Navbar.Brand>
         </Container>
