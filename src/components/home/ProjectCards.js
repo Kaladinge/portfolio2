@@ -12,18 +12,23 @@ export default function ProjectCards() {
       <Row className="mt-5 justify-content-between">
         {projectData.map((item) => (
           <Col lg={4} key={item.title} className="mb-4">
-            <Card className="w-100 h-100 position-relative">
+            <Card
+              className="card w-100 h-100 position-relative overflow-hidden"
+              style={{ borderRadius: "10px" }}
+            >
               <Card.Img variant="top" src={item.screenshot} />
-              <Card.Body className="d-flex flex-column justify-content-between">
+              <Card.Body className="card--body d-flex flex-column justify-content-between">
                 <div>
-                  <Card.Title>{item.title}</Card.Title>
+                  <Card.Title className="card--title text-center">
+                    {item.title}
+                  </Card.Title>
                   <Card.Text>{item.description}</Card.Text>
                 </div>
                 <div className="d-flex justify-content-around">
-                  <a href={item.github} className="">
+                  <a href={item.github} className="card--link">
                     Github
                   </a>
-                  <a href={item.livesite} className="">
+                  <a href={item.livesite} className="card--link">
                     Live site
                   </a>
                 </div>

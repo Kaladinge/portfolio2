@@ -10,14 +10,10 @@ function HomePage() {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src={logo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{" "}
-            React Bootstrap
+            <h1 className="heading">
+              lars-inge <br />{" "}
+              <span className="heading--portfolio">portfolio</span>
+            </h1>
           </Navbar.Brand>
         </Container>
       </Navbar>
