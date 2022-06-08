@@ -10,7 +10,7 @@ export const projectData = [
       "A site for finding different beverages. Users are able to toggle their favorite beverages in and out of their favorite list.",
     screenshot: beverages,
     github: "https://github.com/Kaladinge/js-frameworks-course-assignment",
-    livesite: "",
+    livesite: "https://guileless-buttercream-f66422.netlify.app/",
   },
   {
     title: "Book Palace",
@@ -25,7 +25,8 @@ export const projectData = [
     description:
       "A site for travelers to Bergen who want to find a place to stay in Bergen. Users can book from a variety of hotels, B & Bs and guesthouses. Admin users can respond to these book enquiries and also add new accommodations, as well as edit/delete existing ones",
     screenshot: holidaze,
-    github: "",
+    github:
+      "https://github.com/Noroff-FEU-Assignments/project-exam-2-Kaladinge",
     livesite: "https://holidaze-larsinge.netlify.app",
   },
 ];
